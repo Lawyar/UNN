@@ -26,4 +26,6 @@ int main(){
 	shelves_weight = w * d * shelves_n;
 	weight = doors_weight + back_weight + covers_weight + sides_weight + shelves_weight;
 	printf("%f", weight);
+	system("pause");
+	return 0;
 }
