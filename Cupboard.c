@@ -1,5 +1,6 @@
 #include <stdio.h>
-
+#include <stdlib.h>
+#include <conio.h>
 int main(){
 	double dsp, dvp, wood;
 	double doors_weight, back_weight, covers_weight, shelves_weight, sides_weight, weight;
