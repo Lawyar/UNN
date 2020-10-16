@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <conio.h>
+#include <stdlib.h>
 
 int main() {
 	char x;
@@ -18,5 +20,6 @@ int main() {
 
 	}
 	printf("digit count: %d\nword count: %d\n", dcount, wcount);
+	system("pause");
 	return 0;
 }
