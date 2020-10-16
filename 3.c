@@ -14,7 +14,6 @@ int main() {
 	num1 = rand() % c + ci;
 	uspc = (int*)malloc(n * sizeof(int));
 	usa = (int*)malloc(n * sizeof(int));
-	printf("%d\n", num1);
 	int g = n;
 	while (num1 != 0) {
 		uspc[g - 1] = num1 % 10;
