@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <conio.h>
 
 int main() {
 	int foruser = 0, forpc = 0, user_i = -1, pc_i = -1, attempts = 0, pc_min = 0, pc_max = 1001;;
@@ -18,6 +19,7 @@ int main() {
 				printf("Guessed number is less");
 		}
 		printf("You win! Attempts: %d\n", attempts);
+		system("pause");
 		return 0;
 
 	case '2':
@@ -38,6 +40,7 @@ int main() {
 				break;
 			case '=':
 				printf("It wins! Attempts: %d", attempts);
+				system("pause");
 				return 0;
 			}
 		}
