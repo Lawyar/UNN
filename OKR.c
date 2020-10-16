@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <conio.h>
 #include <math.h>
 int main() {
 	double radius_1, radius_2, x1, x2, y1, y2, distance;
@@ -39,5 +41,6 @@ int main() {
 	if (distance < radius_1 + radius_2) {
 		printf("Circles inside");
 	}
+	system("pause");
 	return 0; 
 }
